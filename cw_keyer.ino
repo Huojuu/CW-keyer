@@ -47,3 +47,75 @@ void keyAndBeep(int speed)
   }
   digitalWrite(P_CW, LOW);             // Key up
 }
+
+void H(int speed)
+{
+  keyAndBeep(speed);         
+  delay(speed);
+  keyAndBeep(speed);         
+  delay(speed);  
+  keyAndBeep(speed);         
+  delay(speed);  
+  keyAndBeep(speed);         
+  delay(speed*3);    
+}
+
+void U(int speed)
+{
+  keyAndBeep(speed);         
+  delay(speed);
+  keyAndBeep(speed);         
+  delay(speed);  
+  keyAndBeep(speed*3);              
+  delay(speed*3);    
+}
+
+void O(int speed)
+{
+  keyAndBeep(speed*3);         
+  delay(speed);
+  keyAndBeep(speed*3);         
+  delay(speed);  
+  keyAndBeep(speed*3);           
+  delay(speed*3);    
+}
+
+void V(int speed)
+{
+  keyAndBeep(speed);         
+  delay(speed);
+  keyAndBeep(speed);         
+  delay(speed);  
+  keyAndBeep(speed);         
+  delay(speed);  
+  keyAndBeep(speed*3);         
+  delay(speed*3);    
+}
+
+void I(int speed)
+{
+  keyAndBeep(speed);         
+  delay(speed);  
+  keyAndBeep(speed);         
+  delay(speed*3);  
+}
+
+void L(int speed)
+{
+  keyAndBeep(speed);         
+  delay(speed);
+  keyAndBeep(speed*3);         
+  delay(speed);  
+  keyAndBeep(speed);         
+  delay(speed);  
+  keyAndBeep(speed);         
+  delay(speed*3);    
+}
+
+void A(int speed)
+{
+  keyAndBeep(speed);         
+  delay(speed);
+  keyAndBeep(speed*3);         
+  delay(speed*3);    
+}
